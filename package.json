@@ -1,0 +1,15 @@
+{
+  "name": "colourz",
+  "version": "1.0.0",
+  "description": "testing out the style dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "scripts": { "build" : "style-dictionary build" },
+  "devDependencies": {
+    "style-dictionary": "^2.10.1"
+  }
+}
