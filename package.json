@@ -4,11 +4,14 @@
   "description": "testing out the style dictionary",
   "main": "index.js",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build",
+    "clean": "rm -rf build",
+    "watch": "npm run build && chokidar  \"properties/**/*.json\" -c \"npm run build\""
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "chokidar-cli": "^2.1.0",
     "style-dictionary": "^2.10.1"
   }
 }
